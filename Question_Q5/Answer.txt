@@ -1,0 +1,13 @@
+Most Complex Database Code
+
+Project: CSV to SQLite Data Import
+Technologies: Python, SQLite
+
+Description:
+A Python script that reads user information from a CSV file and 
+stores it in a SQLite database. The script creates a users table, 
+inserts the CSV records using SQL queries, and 
+commits the data to the database.
+
+Code:
+Question_Q3/csv_to_sqlite.py

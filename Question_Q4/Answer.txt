@@ -1,0 +1,12 @@
+Most Complex Python Code
+
+Project: AI Resume Analyzer
+Technologies: Python, FastAPI, Ollama, REST APIs
+
+Description:
+AI Resume Analyzer is an AI-powered application that processes resume PDFs and 
+job descriptions, extracts relevant skills, performs skill matching, calculates a match score, 
+identifies missing skills, and generates AI-based analysis using an LLM.
+
+Link:
+https://github.com/Shriyash8/AI-Resume_Analyzer
