@@ -10,4 +10,4 @@ inserts the CSV records using SQL queries, and
 commits the data to the database.
 
 Code:
-Question_Q3/csv_to_sqlite.py
+https://github.com/Shriyash8/Accuknox-AI-MI-Assingnment/tree/main/Question_Q3
