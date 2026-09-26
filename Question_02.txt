@@ -1,0 +1,31 @@
+Question:
+What are the key architectural components to create a chatbot based on LLM? 
+Please explain the approach on a high-level
+
+Answer:
+An LLM-based chatbot mainly consists of a user interface, backend, conversation history, and an LLM.
+
+The basic flow would be:
+
+User → Chat Interface → Backend/API → LLM → Response → User
+
+The chat interface allows the user to send questions and receive responses.
+The backend handles the request and communicates with the LLM. It can also manage conversation
+history so that the chatbot can understand the context of previous messages.
+
+If the chatbot needs to answer questions using specific documents or company information, 
+a knowledge base and retrieval system can be added. Relevant information is retrieved and 
+included in the prompt before sending it to the LLM. This approach is commonly called 
+RAG (Retrieval-Augmented Generation).
+
+The LLM then uses the user's question, conversation context, 
+and any retrieved information to generate the response, which is sent back through the backend to the user.
+
+
+For example:
+
+User Question → Backend → Retrieve Relevant Information → LLM → Answer
+
+This architecture can be expanded depending on the requirements of the chatbot,
+such as adding authentication, databases, monitoring, or a vector database 
+for document search.

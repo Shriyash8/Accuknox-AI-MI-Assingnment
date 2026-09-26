@@ -1,0 +1,32 @@
+Question:
+Please explain vector databases. If you were to select a vector database for a hypothetical 
+problem (you may define the problem) which one will you choose, and why?
+
+Answer:
+
+A vector database is used to store embeddings, which are numerical representations of text 
+or other data. It helps find information that is similar in meaning, even when the exact 
+words are different.
+
+
+For example, imagine a college placement assistant. A student asks:
+
+“Which companies are hiring freshers for Python roles?”
+
+The system can convert this question into an embedding and search a vector database containing 
+job descriptions. It can find a job description mentioning “Graduate Software Engineer with Python 
+and FastAPI” even though the wording is different. The results can also be filtered by location, 
+experience level, or technology.
+
+
+The basic flow would be:
+
+Question → Embedding → Vector Search → Relevant Jobs → LLM → Answer
+
+For this problem, I would choose Qdrant because it supports vector 
+similarity search and metadata filtering and can be used easily with a 
+Python backend. This would be useful for a placement assistant where many job 
+descriptions need to be searched and filtered.
+
+Vector databases are especially useful in RAG (Retrieval-Augmented Generation) because they allow 
+the system to retrieve relevant information and provide it to the LLM before generating the final answer.
