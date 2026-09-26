@@ -1,3 +1,7 @@
+Question:
+Where would you rate yourself on (LLM, Deep Learning, AI, ML). A, B, C 
+
+Answer:
 LLM: B
 Deep Learning: C
 AI: B
